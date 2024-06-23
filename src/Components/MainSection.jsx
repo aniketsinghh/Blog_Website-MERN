@@ -19,14 +19,27 @@ const MainSection = () => {
           </p>
           <hr />
           <div className="flex gap-3">
-            <span className="text-sm bg-white rounded-3xl px-3 py-2">Coding</span>
-            <span className="text-sm bg-white rounded-3xl px-3 py-2">Programming</span>
+            <span className="text-sm bg-white rounded-3xl px-3 py-2">
+              Coding
+            </span>
+            <span className="text-sm bg-white rounded-3xl px-3 py-2">
+              Programming
+            </span>
           </div>
-          <Link to={`/blog/123`} className="px-8 py-2 md:text-xl text-sm bg-white rounded-xl w-fit text-blue-500 font-semibold">Read Now</Link>
+          <Link
+            to={`/blog/123`}
+            className="px-8 py-2 md:text-xl text-sm bg-white rounded-xl w-fit text-blue-500 font-semibold"
+          >
+            Read Now
+          </Link>
         </div>
 
         <div>
-          <img src="/img.jpg" alt="study" className="md:w-[20vw] w-[50vw] rounded-3xl shadow-2xl"/>
+          <img
+            src="/img.jpg"
+            alt="study"
+            className="md:w-[40vw] w-[75vw] mt-14 md:mt0 mt rounded-3xl shadow-2xl"
+          />
         </div>
       </section>
     </>
