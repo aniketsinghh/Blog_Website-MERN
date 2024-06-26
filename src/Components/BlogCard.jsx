@@ -9,7 +9,7 @@ const BlogCard = () => {
         className="relative flex flex-col md:flex-row py-2 md:py-2 gap-2 justify-start items-center md:px-3 rounded-2xl  md:rounded-3xl shadow-md bg-slate-100 w-full h-fit mb-1"
       >
         <img
-          src="./img.jpg"
+          src="/img.jpg"
           alt=""
           className="md:w-[20vw] rounded-2xl md:rounded-3xl"
         />
@@ -26,7 +26,7 @@ const BlogCard = () => {
           <hr className="my-3" />
           <div className="mx-5 flex justify-start gap-2 items-center">
             <img
-              src="./logo.jpg"
+              src="/logo.jpg"
               alt=""
               className="rounded-sm md:w-[40px] w-[50px] md:h-[5%] h-[55px]"
             />

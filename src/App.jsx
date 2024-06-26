@@ -2,17 +2,22 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home";
 import Blog from "./Pages/Blog";
 import Admin from "./Pages/Admin";
+import BlogContext from "./context/BlogContext";
+import { useState } from "react";
 
 function App() {
+  const [isAuth, setIsAuth] = useState(false);  
   return (
     <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/admin" element={<Admin />} />
-          <Route path="/blog/:id" element={<Blog />} />
-        </Routes>
-      </BrowserRouter>
+      <BlogContext.Provider value={{isAuth, setIsAuth}}>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/admin" element={<Admin />} />
+            <Route path="/blog/:id" element={<Blog />} />
+          </Routes>
+        </BrowserRouter>
+      </BlogContext.Provider>
     </>
   );
 }
