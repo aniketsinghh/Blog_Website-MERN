@@ -70,7 +70,7 @@ const Blog = () => {
             <h3 className="text-3xl font-semibold text-gray-600 ml-3">
               More Blog
             </h3>
-            <div className="w-full grid grid-cols-1 gap-2 md:h-[80vh] md:overflow-y-scroll md:py-2 md:pb-2 scroll-hide my-3">
+            <div className=" grid grid-cols-1 gap-2 md:h-[80vh] md:overflow-y-scroll md:py-2 md:pb-2 scroll-hide my-3">
               <BlogCard />
               <BlogCard />
               <BlogCard />

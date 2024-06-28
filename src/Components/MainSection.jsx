@@ -27,7 +27,7 @@ const MainSection = () => {
             </span>
           </div>
           <Link
-            to={`/blog/123`}
+            to={`/blog/1234`}
             className="px-8 py-2 md:text-xl text-sm bg-white rounded-xl w-fit text-blue-500 font-semibold"
           >
             Read Now
